@@ -8,9 +8,9 @@ After=multi-user.target
 
 WorkingDirectory=/home/reedniv/cryptoconvert
 
-User=eddy
+User=reedniv
 
-Group=eddy
+Group=reedniv
 
 ExecStart=/usr/bin/python3.6 /home/reedniv/cryptoconvert/main.py
 
