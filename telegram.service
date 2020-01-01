@@ -6,13 +6,13 @@ After=multi-user.target
 
 [Service]
 
-WorkingDirectory=/home/eddy/telegram_bot
+WorkingDirectory=/home/reedniv/cryptoconvert
 
 User=eddy
 
 Group=eddy
 
-ExecStart=/usr/bin/python3.6 /home/eddy/telegram_bot/main.py
+ExecStart=/usr/bin/python3.6 /home/reedniv/cryptoconvert/main.py
 
 Type=idle
 
